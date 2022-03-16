@@ -1,0 +1,37 @@
+#root,
+html,
+body{
+  background-color: #030328;
+  font-family: 'Times New Roman', Times, serif;
+  min-height: 100vh;
+  margin: 0px;
+  background-image: url(/public/assets/background-main.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.legal{
+  color: #bbb;
+  line-height: 1.4em;
+  font-size: 0.7em;
+  text-align: center;
+  font-weight: 300;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+#hero{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.trendingHero{
+  text-align: center;
+}
+
+#hero h3{
+  font-size: 2rem !important;
+  font-weight: bold;
+}

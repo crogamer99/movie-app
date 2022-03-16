@@ -1,0 +1,69 @@
+.custom-container{
+    padding: 20px;
+    max-width: 50%;
+    color: white;
+    margin-left: 1rem;
+}
+
+.anime-title{
+    margin-bottom: 25px;
+}
+
+.title-img{
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.custom-container h3{
+    display: block;
+    font-weight: 300 !important;
+    max-width: 25rem;
+}
+.title-overview{
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.alternate-titles{
+    margin-top: -1rem;
+    display: block;
+    overflow-wrap: normal;
+}
+
+
+.custom-button{
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+    border: 1px solid #B535F6;
+    padding: 0.55em 1.5em 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #B535F6;
+    margin-right: 20px;
+    font-size: 0.75rem;
+    margin-bottom: 30px;
+}
+
+.custom-button:hover{
+    color: #B535F6;
+    background-color: transparent;
+    border: 1px solid #B535F6;
+}
+
+.title-genres{
+    margin-bottom: 1rem;
+}
+
+.title-genres p{
+    display: block;
+    margin-bottom: 0 !important;
+    overflow-wrap: normal;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 915px) and (-webkit-max-device-pixel-ratio: 3) {
+    .custom-container {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,59 @@
+.custom-container{
+    padding: 20px;
+    color: white;
+}
+
+.title-img{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-weight: 300 !important;
+}
+
+.title-tagLine{
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 30px;   
+}
+
+.title-overview{
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    max-width: 50%;
+}
+
+
+.custom-button{
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+    border: 1px solid #B535F6;
+    padding: 0.55em 1.5em 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #B535F6;
+    margin-right: 20px;
+    font-size: 0.75rem;
+    margin-bottom: 30px;
+}
+
+.custom-button:hover{
+    color: #B535F6;
+    background-color: transparent;
+    border: 1px solid #B535F6;
+}
+
+.holder{
+    margin-bottom: 30px;
+}
+
+.details h5{
+    font-size: 20px;
+}
+
+.details p{
+    font-size: 15px;
+}

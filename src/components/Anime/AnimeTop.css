@@ -1,0 +1,35 @@
+.scroll-tray{
+    height: 100%;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    animation: scroll-tray-hero 90s linear infinite;
+}
+
+.scroll-tray-image{
+    max-width: 150px;
+    height: 200px;
+    border-radius: 0.2rem;
+}
+
+html,
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.scroll-tray div{
+    margin-right: 20px;
+    display: inline-block;
+}
+
+@keyframes scroll-tray-hero{
+    0%{
+        transform: translateX(0);
+    }
+    99.99%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
